@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "/Users/victor/Dev/Ikambere/vltech-nocobase-plugins/packages/plugins/@vltech/nocobase-plugin-workflow-duplicate-record/storage/logs/main/.5027e454c8be0724c5f5f03ab2d626fab0bad809-audit.json",
+    "files": [
+        {
+            "date": 1763226366789,
+            "name": "/Users/victor/Dev/Ikambere/vltech-nocobase-plugins/packages/plugins/@vltech/nocobase-plugin-workflow-duplicate-record/storage/logs/main/system_2025-11-15.log",
+            "hash": "d2511abacb41feebfb6162577f2f14d7fbd55d962ac4cc72f94b4acb9e0a96f4"
+        }
+    ],
+    "hashType": "sha256"
+}
