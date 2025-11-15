@@ -1,7 +1,8 @@
 logs
 logs-e2e
-playwright
-!playwright/tests
+playwright/.auth
+playwright/test-results
+playwright/tests-report-html
 
 uploads
 !uploads/.gitkeep
