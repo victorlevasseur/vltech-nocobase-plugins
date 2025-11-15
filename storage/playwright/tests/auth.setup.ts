@@ -1,6 +1,6 @@
 import { expect, test as setup } from '@playwright/test';
 
-// Sauvegarder l'état de connexion pour éviter de se connecter à chaque test
+// 保存登录状态，避免每次都要登录
 setup('admin', async ({ page }) => {
   await page.goto('/');
   await page.getByPlaceholder('Username/Email').click();
@@ -11,7 +11,7 @@ setup('admin', async ({ page }) => {
 
   await expect(page.getByTestId('user-center-button')).toBeVisible();
 
-  // Activer le mode configuration/design
+  // 开启配置状态
   await page.evaluate(() => {
     localStorage.setItem('NOCOBASE_DESIGNABLE', 'true');
   });

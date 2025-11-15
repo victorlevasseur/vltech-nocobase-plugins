@@ -1,1 +1,8 @@
 logs
+logs-e2e
+playwright
+!playwright/tests
+
+uploads
+!uploads/.gitkeep
+!uploads/logo-i9w47l.png
